@@ -130,3 +130,23 @@ p{
             margin: $auto;
         }   
 }
+
+footer{
+    
+    height: $footer-height;
+    @include footer-bg;
+    display: $display-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+
+    h3{
+        @include secondary-title;
+        font-size: $paragraph-font;
+    }
+
+    h3 a{
+        text-decoration: $none-txt-deco;
+        color: $ternary-color;
+    }
+}

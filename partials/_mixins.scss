@@ -62,3 +62,12 @@
     width: $width;
     margin: $auto;
 }
+
+@mixin footer-bg{
+    background: url('image/bg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    clip-path: polygon(22% 33%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+}

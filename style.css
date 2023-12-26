@@ -153,4 +153,30 @@ p {
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+footer {
+  height: 250px;
+  background: url("image/bg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-clip-path: polygon(22% 33%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(22% 33%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 0);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+footer h3 {
+  font-family: verdana;
+  text-transform: uppercase;
+  color: #c5bcaa;
+  margin: 0 auto;
+  font-size: 20px;
+}
+footer h3 a {
+  text-decoration: none;
+  color: #9f9980;
 }/*# sourceMappingURL=style.css.map */
