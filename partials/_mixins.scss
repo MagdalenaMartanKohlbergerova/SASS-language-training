@@ -50,3 +50,15 @@
     font-size: 19px;
     transition: 0.5s;
 }
+
+@mixin theme-box{
+    width: 6 * col-width();
+}
+
+@mixin p{
+    color: $ternary-color;
+    font-family: $main-font;
+    font-size: $paragraph-font;
+    width: $width;
+    margin: $auto;
+}

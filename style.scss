@@ -68,3 +68,65 @@ h2{
         }
     }
 }
+
+.block{
+    background: $light-bg;
+    margin: 2rem;
+}
+
+.theme{
+    @include theme-box;
+    display: $display-in-block;
+
+    img{
+        padding-block-start: 3rem;
+        width: $width-70;
+        display: $display-block;
+        margin: $auto;
+    }
+
+    span{
+        padding: 3rem;
+    }
+
+    button{
+        display: $display-block;
+        width: 150px;
+        margin: 0 auto;
+        background: $btn-bg;
+
+        @include button;
+
+        &:hover{
+            cursor: $cursor;
+            letter-spacing: 1.5px;
+            transition: 0.5s;
+        }
+    }
+}
+
+p{
+    @include p;
+    text-align: $left;
+    margin-block: 10rem;
+}
+
+.portfolio-row{
+    display: $display-flex;
+    flex-flow: wrap;
+    padding-inline: 2rem;
+    padding-block-end: 10rem;
+    justify-content: space-around;
+}
+
+.row{
+    display: $display-in-block;
+    width: 320px;
+    
+        img{
+            padding-top: 5rem;
+            width: $width-100;
+            display: $display-block;
+            margin: $auto;
+        }   
+}

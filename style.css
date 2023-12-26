@@ -85,4 +85,72 @@ h2 {
 .btn-top button:hover {
   font-size: 19px;
   transition: 0.5s;
+}
+
+.block {
+  background: rgba(155, 165, 156, 0.1490196078);
+  margin: 2rem;
+}
+
+.theme {
+  width: 49.45%;
+  display: inline-block;
+}
+.theme img {
+  padding-block-start: 3rem;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.theme span {
+  padding: 3rem;
+}
+.theme button {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  background: #9ba59c;
+  color: white;
+  border: none;
+  font-family: verdana;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.theme button:hover {
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+}
+
+p {
+  color: #9f9980;
+  font-family: verdana;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  margin-block: 10rem;
+}
+
+.portfolio-row {
+  display: flex;
+  flex-flow: wrap;
+  padding-inline: 2rem;
+  padding-block-end: 10rem;
+  justify-content: space-around;
+}
+
+.row {
+  display: inline-block;
+  width: 320px;
+}
+.row img {
+  padding-top: 5rem;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
