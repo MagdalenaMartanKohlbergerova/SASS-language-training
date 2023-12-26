@@ -1,0 +1,70 @@
+@use 'partials/variables' as *;
+@use 'partials/mixins' as *;
+@use 'partials/functions' as *;
+
+body{
+    background-color: $body-background;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: $header-height;
+    @include header-bg;
+
+    h1{
+        font-size: $main-title;
+        font-family: $main-font;
+        letter-spacing: 2px;
+        text-transform: $text-transform;
+        color: $scnd-txclr;
+        padding-block-start: 2rem;
+        width: $width;
+        margin: $auto;
+        padding-block-start: 5%;
+    }
+}
+
+h2{
+    @include secondary-title;
+    width: $width;
+}
+
+.fb-ig{
+    @include icon-div;
+    gap: 10px;
+}
+
+.icon{
+    @include icon;
+
+    i{
+        line-height: 50px;
+        width: 50px;
+        cursor: $cursor;
+    }
+
+    &:hover{
+        color: $scnd-txclr;
+        background: $body-background;
+        transition: 0.5s;
+    }
+}
+
+.btn-top{
+    height: 50px;
+    width: $width-100;
+    margin-block-end: 5rem;
+    
+    button{
+        @include button;
+        cursor: $cursor;
+        position: absolute;
+        right: 13%;
+        background: $scnd-txclr;
+
+        &:hover{
+            @include btn-hover;
+        }
+    }
+}

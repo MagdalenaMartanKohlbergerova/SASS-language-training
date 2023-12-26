@@ -1,0 +1,52 @@
+@use '../partials/variables' as *;
+@use '../partials/functions' as *;
+
+@mixin header-bg{
+    background: url('image/bg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 22% 70%, 0% 100%);
+    position: relative;
+}
+
+@mixin secondary-title{
+    font-family: $main-font;
+    text-transform: $text-transform;
+    color: $scnd-txclr;
+    margin: $auto;
+}
+
+@mixin icon-div{
+    display: flex;
+    width: $width;
+    margin: $auto;
+}
+
+@mixin icon{
+    width: 50px;
+    height: 50px;
+    border-radius: $circle-radius;
+    background: $scnd-txclr;
+    color: $main-color;
+    font-size: $icon-font-size;
+    text-align: $center;
+}
+
+@mixin button{
+    color: $main-color;
+    border: none;
+    font-family: $main-font;
+    font-weight: bold;
+    border-radius: $border-radius;
+    padding-inline: 10px;
+    padding-block: 10px;
+    text-transform: uppercase;
+    text-align: $center;
+}
+
+@mixin btn-hover{
+    font-size: 19px;
+    transition: 0.5s;
+}

@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 400px;
+  background: url("image/bg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 22% 70%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 100%, 22% 70%, 0% 100%);
+  position: relative;
+}
+header h1 {
+  font-size: 4em;
+  font-family: verdana;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c5bcaa;
+  padding-block-start: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-block-start: 5%;
+}
+
+h2 {
+  font-family: verdana;
+  text-transform: uppercase;
+  color: #c5bcaa;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.fb-ig {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #c5bcaa;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.icon i {
+  line-height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.icon:hover {
+  color: #c5bcaa;
+  background: white;
+  transition: 0.5s;
+}
+
+.btn-top {
+  height: 50px;
+  width: 100%;
+  margin-block-end: 5rem;
+}
+.btn-top button {
+  color: white;
+  border: none;
+  font-family: verdana;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 13%;
+  background: #c5bcaa;
+}
+.btn-top button:hover {
+  font-size: 19px;
+  transition: 0.5s;
+}/*# sourceMappingURL=style.css.map */

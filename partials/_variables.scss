@@ -1,0 +1,51 @@
+// ****Display****
+$display-flex: flex;
+$display-block: block;
+$display-in-block: inline-block;
+
+// ****Colors****
+$header-bg: url('image/bg.jpg');
+$body-background: white;
+
+$main-color: white;
+$ternary-color: #9f9980;
+$text-color: black;
+$scnd-txclr: #c5bcaa;
+$light-bg: #9ba59c26;
+
+$btn-bg: #9ba59c;
+
+// ****Borders****
+$ordinary-border: 2px solid black;
+$border-radius: 20px;
+$circle-radius: 50%;
+
+// ****Fonts****
+$main-font: verdana;
+$scndr-font: georgia;
+
+// ****Font sizes****
+$main-title: 4em;
+$paragraph-font: 20px;
+$icon-font-size: 35px;
+
+// ***Text styles***
+$text-transform: uppercase;
+$font-bold: bold;
+$none-txt-deco: none;
+$center: center;
+$left: left;
+
+// ****Sizes****
+$header-height: 400px;
+$footer-height: 250px;
+
+$width-70: 70%;
+$width: 80%;
+$width-100: 100%;
+
+// ****Margin****
+$auto: 0 auto;
+
+// ****Basis****
+$cursor: pointer;
