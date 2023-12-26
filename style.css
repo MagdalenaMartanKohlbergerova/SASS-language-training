@@ -179,4 +179,38 @@ footer h3 {
 footer h3 a {
   text-decoration: none;
   color: #9f9980;
+}
+
+@media (max-width: 750px) {
+  .theme {
+    width: 100%;
+  }
+  .theme img {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  header h1 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 450px) {
+  header {
+    height: 80vh;
+  }
+  header h1 {
+    font-size: 2.5em;
+  }
+  header h2 {
+    font-size: 18px;
+    padding-block-start: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  header h1 {
+    font-size: 2.2em;
+  }
 }/*# sourceMappingURL=style.css.map */
